@@ -1,4 +1,4 @@
-# Spring-boot-mvc-jpa
+# Spring-boot-mvc-jpa-factura
 
 Este es un proyecto creado con spring boot, versión 17 de java y 3.1.0 de spring boot
 
