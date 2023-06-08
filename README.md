@@ -4,7 +4,7 @@ Este es un proyecto creado con spring boot, versión 17 de java y 3.1.0 de sprin
 
 ## Descripción
 
-En este proyecto se crea un crud a la tabla clientes. Se incluyen:
+En este proyecto se crea el proceso de facturaciónSe incluyen:
 - Entidades
 - Dao
 - Services(facade pattern) 
@@ -19,6 +19,7 @@ En este proyecto se crea un crud a la tabla clientes. Se incluyen:
 - Growl con librerías toastr y sweetalert
 - Carga de imágenes a carpeta raíz del proyecto a través del path absoluto
 - Paginador
+- Jquery
 
 ## Autor
 
@@ -26,15 +27,8 @@ En este proyecto se crea un crud a la tabla clientes. Se incluyen:
 Salvador Peña
 ```
 # Imágenes
-### Lista de clientes
-![Lista clientes](/imagenes_readme/1.png)
+### Detalle factura
+![Lista clientes](/imagenes_readme/5.png)
 *** 
-### Edición de clientes
-![Editar clientes](/imagenes_readme/2.png)
-
-### Uso de diferentes formatos de mensajes con libreriás toastr y sweetalert
-
-![Mensajes clientes](/imagenes_readme/3.png)
-
-### Detalles cliente
-![Detalle clientes](/imagenes_readme/4.png)
+### Lista de facturas
+![Editar clientes](/imagenes_readme/6.png)

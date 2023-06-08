@@ -56,7 +56,7 @@ public class ClienteControl {
 
 	@GetMapping("/verDetalle/{id}")
 	public String verDetalleCliente(@PathVariable("id") Long id, RedirectAttributes flash, Model model) {
-		Cliente cliente = clienteService.findOne(id);
+		Cliente cliente = clienteService.obtenerClienteCompleto(id);// clienteService.findOne(id);
 		if (cliente == null) {
 			flash.addFlashAttribute("error", "El cliente no se encuentra en la base de datos ");
 			return "redirect:/listaClientes";
